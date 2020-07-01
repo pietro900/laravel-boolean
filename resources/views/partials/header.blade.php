@@ -4,7 +4,7 @@
     </div>
     <nav class="header-right">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="{{ route('homepage') }}">Home</a></li>
             <li><a href="#">Corso</a></li>
             <li><a href="#">Dopo il corso</a></li>
             <li><a href="#">Lezione gratuita</a></li>

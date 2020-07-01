@@ -19,8 +19,12 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('home');
-});
+})->name('homepage');
 
 Route::get('/privacy', function () {
     return view('privacy');
-});
+})->name('privacy');
+
+Route::get('/domande', function () {
+    return view('domande');
+})->name('domande');
