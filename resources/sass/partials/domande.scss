@@ -1,17 +1,15 @@
 .jumbotron{
     @include flex;
-    height: 600px;
-    width: 100%;
 
     .left{
-        height: 100%;
+        min-Height: 700px;
         width: 50%;
         color: #1b3c59;
         background-color: #e8ebf1;
     }
 
     .right{
-        height: 100%;
+        min-Height: 700px;
         width: 50%;
         background-color: #1b3c59;
         color: #fff;
@@ -37,6 +35,11 @@
     }
 
     .fa-plus {
+        float: right;
+        cursor: pointer;
+    }
+
+    .fa-minus{
         float: right;
         cursor: pointer;
     }

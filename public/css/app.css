@@ -514,19 +514,17 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 600px;
-  width: 100%;
 }
 
 .jumbotron .left {
-  height: 100%;
+  min-Height: 700px;
   width: 50%;
   color: #1b3c59;
   background-color: #e8ebf1;
 }
 
 .jumbotron .right {
-  height: 100%;
+  min-Height: 700px;
   width: 50%;
   background-color: #1b3c59;
   color: #fff;
@@ -552,6 +550,11 @@ footer {
 }
 
 .jumbotron .fa-plus {
+  float: right;
+  cursor: pointer;
+}
+
+.jumbotron .fa-minus {
   float: right;
   cursor: pointer;
 }
