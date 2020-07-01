@@ -1,0 +1,32 @@
+header {
+    @include flex;
+    padding: 0 15px;
+    height: 100px;
+
+  img {
+    width: 200px;
+    cursor: pointer;
+  }
+}
+
+nav {
+
+    li {
+        display: inline-block;
+        font-size: 14px;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:not(:last-child) {
+            padding: 20px 30px
+        }
+
+        &:hover {
+            border-bottom: 2px solid lightgreen;
+        }
+
+        &.btn a{
+            color: #fff;
+        }
+    }
+}

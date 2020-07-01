@@ -1,0 +1,38 @@
+footer {
+    color: #fff;
+    background-color: #1b3c59;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.footer-top {
+   @include flex;
+   border-bottom: 1px solid white;
+}
+
+.footer-sinistra img {
+  width: 200px;
+}
+
+.footer-destra li {
+  list-style-type: none;
+  line-height: 1.9em;
+
+  a{
+    color: #fff;
+    font-size: 25px;
+  }
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.footer-bottom {
+  text-align: center;
+
+  & i {
+    font-size: 2em;
+    padding: 20px;
+  }
+}

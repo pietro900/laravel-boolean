@@ -1,0 +1,27 @@
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 16px;
+    border-radius: 5%;
+    border-bottom: 2px solid lightgreen;
+    padding: 10px 20px;
+}
+
+.btn-primary {
+    @extend .btn;
+    background-color: lightgreen;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
